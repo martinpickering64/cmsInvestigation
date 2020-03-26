@@ -19,3 +19,5 @@ fields:
     step: '1'
     required: true
   label: A Number
+pages:
+- content/posts/test1-mandatory-number.md

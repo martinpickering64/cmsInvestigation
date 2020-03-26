@@ -18,3 +18,5 @@ fields:
     min: '0'
     max: '99'
     step: '1'
+pages:
+- content/posts/test1-optional-number.md
