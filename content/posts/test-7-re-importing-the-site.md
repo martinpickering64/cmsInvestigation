@@ -1,5 +1,5 @@
 +++
-a_number = nil
+a_number = 1
 title = "Test 7 - Re-importing the Site"
 
 +++
