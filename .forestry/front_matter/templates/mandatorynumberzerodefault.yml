@@ -21,4 +21,3 @@ fields:
   label: A Number
 pages:
 - content/posts/test1-mandatory-number.md
-- content/posts/test2-mandatory-number.md

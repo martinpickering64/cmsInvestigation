@@ -20,4 +20,3 @@ fields:
     step: '1'
 pages:
 - content/posts/test1-optional-number.md
-- content/posts/test2-optional-number.md
