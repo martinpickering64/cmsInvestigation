@@ -169,3 +169,27 @@ This is a Test Pass.
 For `/posts/test-4-optional-number.md` the Test Result observed was `a_number` had the value 0 (zero).
 
 This is a Test Pass.
+
+## Test 6
+
+
+__Scenario__: Building on Test 5, cause Forestry.io to re-import the Site from GITHUB.
+
+__Given__ the Test 5 has been run and passed<br>
+__AND__ I have logged in to Forestry.io via a new Window
+__AND__ I have pushed a new Commit to GITHUB by updating the Repositories README.md File with the Test Plan for Test 6.
+__WHEN__ I view the `test 4 .md files` GITHUB<br>
+__THEN__ their values for `a_number` is 0 (zero)
+
+
+### Outcome
+
+Test ran 26/03/2020.
+
+For `/posts/test-4-mandatory-number.md` the Test Result observed was `a_number` had no value and the Forestry.io CMS Editor displayed an error message saying "A Number is required".
+
+This is a Test Fail.
+
+For `/posts/test-4-optional-number.md` the Test Result observed was `a_number` had no value.
+
+This is a Test Fail.
