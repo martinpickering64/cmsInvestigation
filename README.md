@@ -118,3 +118,30 @@ This is a Test Fail.
 For `/posts/test-3-optional-number.md` the Test Result observed was `a_number` had no value.
 
 This is a Test Fail.
+
+## Test 4
+
+__Background__: Change of tack now. Rather than work from the CLI, do everything in Forestry.io.
+
+__Scenario__: Two Posts are created using Forestry.io .
+One Post is created using the `mandatoryNumberDefaultZero` Forestry.io Front Matter Template. The 
+other Post is created with the `optionalNumberDefaultZero` Forestry.io Front Matter Template. 
+In both Posts, the `a_number` Front Matter Field is set to 0 (zero). The objective of the test 
+is to see what the Forestry.io CMS Editor creates in the `.md` files when viewed from GITHUB.
+
+__Given__ the two Posts have been created using Forestry<br>
+__WHEN__ I view the `test 4 .md files` GITHUB<br>
+__THEN__ their values for `a_number` is 0 (zero)
+
+
+### Outcome
+
+Test ran 26/03/2020.
+
+For `/posts/test-4-mandatory-number.md` the Test Result observed was `a_number` had the value 0 (zero).
+
+This is a Test Pass.
+
+For `/posts/test-4-optional-number.md` the Test Result observed was `a_number` had the value 0 (zero).
+
+This is a Test Pass.
