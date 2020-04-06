@@ -14,3 +14,5 @@ The Forestry Front Matter was also set to use the optionalNumberDefaultZero Temp
 Spot the difference?
 
 Add the zero value back via Forestry...
+
+Now, make a simple change outside of forestry and re-import. Number still set to zero?
