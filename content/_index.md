@@ -18,3 +18,5 @@ To validate, this suspicion I created a further test, [Test 7](/posts/test-7), a
 I also believe that this is the same vector for causing intermittent situations where by the building/starting of the Preview Server can sometime fail with a HUGO Error similar to...
 
 > Error: Error building site: "/root/hugo/content/posts/test-7.md:3:1": unmarshal failed: Near line 2 (last key parsed 'a_number'): expected value but found "nil" instead
+
+Update: Today Forestry advised me of a "FIX" that had been published. So here goes, let's test again!
