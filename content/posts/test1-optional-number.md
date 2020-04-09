@@ -16,3 +16,5 @@ Spot the difference?
 Add the zero value back via Forestry...
 
 Now, make a simple change outside of forestry and re-import. Number still set to zero?
+
+Forestry.io say they got this right this time. So repair the page in Forestry and then re-import from GitHub to see what happens this time?
