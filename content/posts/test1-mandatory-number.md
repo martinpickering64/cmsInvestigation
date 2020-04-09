@@ -10,3 +10,5 @@ by Forestry.
 The `a_number` front matter field was set to 0.
 
 The Forestry Front Matter was also set to use the mandatoryNumberDefaultZero Template for this test.
+
+Forestry.io say they got this right this time. So repair the page in Forestry and then re-import from GitHub to see what happens this time?
